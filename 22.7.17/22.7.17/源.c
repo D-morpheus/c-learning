@@ -71,14 +71,49 @@
 //	return 0;
 //}
 
+//
+//extern int add(int x, int y);
+//int main()
+//{
+//	int sum;
+//	int a = 1;
+//	int b = 2;
+//	sum = add(a, b);
+//	printf("%d\n", sum);
+//	return 0;
+//}
 
-extern int add(int x, int y);
+
+//int main()
+//{
+//	int a = 10;
+//	int* pa = &a;
+//
+//	printf("%p\n", &a);
+//	printf("%d\n", sizeof(long long));
+//
+//	return 0;
+//}
+
+struct girl
+{
+	char name[20];
+	float bear;
+	float hip;
+
+};
 int main()
 {
-	int sum;
-	int a = 1;
-	int b = 2;
-	sum = add(a, b);
-	printf("%d\n", sum);
+	struct girl ljy={"ljy",30.5,90.5 };
+    printf("%s %f %f\n", ljy.name, ljy.bear, ljy.hip);
+	struct girl* pa = &ljy;
+	printf("%p\n", pa);
+	printf("%d\n", sizeof(struct girl*));
+	printf("%s %f %f\n", pa->name, (*pa).bear, ljy.hip);
+
+
+
+
+
 	return 0;
 }
