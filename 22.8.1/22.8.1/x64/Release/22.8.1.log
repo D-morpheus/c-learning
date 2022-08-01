@@ -1,0 +1,2 @@
+﻿MSVCRT.lib(exe_main.obj) : error LNK2001: 无法解析的外部符号 main
+D:\computer learning\code\c-learning\22.8.1\x64\Release\22.8.1.exe : fatal error LNK1120: 1 个无法解析的外部命令
