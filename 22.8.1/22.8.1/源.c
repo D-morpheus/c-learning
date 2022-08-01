@@ -1,9 +1,9 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include<stdio.h>
-//#include<math.h>
-//#include<stdlib.h>
-//#include<string.h>
-//
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<math.h>
+#include<stdlib.h>
+#include<string.h>
+
 ////int main()
 //{
 //	int i = 0;
@@ -92,7 +92,7 @@
 //	return 0;
 //}
 
-
+//
 //
 //int main()
 //{
@@ -113,3 +113,26 @@
 //
 //	return 0;
 //}
+
+
+//
+//int main()
+//{
+//	char arr1[20] = { 0 };
+//	char arr2[] = "hello world";
+//	strcpy(arr1, arr2);
+//	printf("%s ", arr1);
+//
+//
+//	return 0;
+//}
+
+
+int amin()
+{
+	char arr1[] = "hello bit";
+	memset(arr1, 's', 5);
+	printf("%s\n", arr1);
+
+	return 0;
+}
