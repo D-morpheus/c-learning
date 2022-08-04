@@ -156,8 +156,11 @@
 //	printf("%d ", x % 10);
 //}
 //
-//
-//
+
+
+
+
+
 //
 //
 //int main()
@@ -189,8 +192,11 @@
 //	return 0;
 //}
 
-//
-//int dob(int x)
+
+
+
+
+//int jiecheng(int x)
 //{
 //
 //	if (x > 0)
@@ -211,9 +217,12 @@
 //{
 //	int n = 0;
 //	scanf("%d", &n);
-//	printf("%d\n", dob(n));
+//	printf("%d\n", jiecheng(n));
 //	return 0;
 //}
+//
+
+
 
 
 //int Fac(int x)
@@ -247,8 +256,14 @@
 //	}
 //	return 0;
 //}
-//
-//
+
+
+
+
+
+
+
+
 //void move(char m1, char m2)
 //{
 //	printf("%c -> %c  ", m1, m2);

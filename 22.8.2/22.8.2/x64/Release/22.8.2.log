@@ -1,0 +1,5 @@
+﻿  源.c
+  猜数字.c
+猜数字.obj : error LNK2005: main 已经在 源.obj 中定义
+D:\computer learning\code\c-learning\22.8.2\x64\Release\22.8.2.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1092,5): error MSB6006: “link.exe”已退出，代码为 1169。
