@@ -1,0 +1,30 @@
+#pragma once
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+#define ROW 9
+#define COL 9
+
+#define ROWS COL + 2
+#define COLS ROW + 2
+
+#define EASY_COUNT 10 
+
+//≥ı ºªØ∆Â≈Ã
+void InitBoard(char board[ROWS][COLS], int rows, int cols, char set);
+
+//¥Ú”°∆Â≈Ã
+void DisplayBoard(char board[ROWS][COLS], int row,int col);
+
+//≤º÷√¿◊
+void SetMine(char mine[ROWS][COLS], int rows, int cols);
+
+//≈≈≤È¿◊
+void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col);
+
+
+
+
+
