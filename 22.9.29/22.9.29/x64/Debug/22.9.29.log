@@ -1,0 +1,5 @@
+﻿  源.c
+D:\computer learning\code\c-learning\22.9.29\22.9.29\源.c(96,11): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“double *”
+D:\computer learning\code\c-learning\22.9.29\22.9.29\源.c(96,11): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“double *”
+D:\computer learning\code\c-learning\22.9.29\22.9.29\源.c(96,11): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“double *”
+  22.9.29.vcxproj -> D:\computer learning\code\c-learning\22.9.29\x64\Debug\22.9.29.exe
