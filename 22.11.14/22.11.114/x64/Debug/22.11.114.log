@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+D:\computer learning\code\html\22.11.114\x64\Debug\22.11.114.exe : fatal error LNK1120: 1 个无法解析的外部命令
